@@ -1,3 +1,5 @@
 #!/bin/bash
 
-ls
+pkill nginx
+
+systemctl restart nginx
